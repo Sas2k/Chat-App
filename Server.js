@@ -2,7 +2,6 @@ const express = require('express');
 var app = express();
 app.use(express.static(__dirname));
 const mongoose = require('mongoose');
-const io = require('socket.io')(http);
 var bodyParser = require('body-parser')
 var http = require('http').Server(app);
 const io = require('socket.io')(http);
